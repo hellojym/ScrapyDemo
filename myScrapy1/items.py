@@ -15,14 +15,6 @@ class ItCastItem(scrapy.Item):
     info = scrapy.Field()
 
 
-# 虎嗅
-class HuxiuItem(scrapy.Item):
-    title = scrapy.Field()  # 标题
-    link = scrapy.Field()  # 链接
-    desc = scrapy.Field()  # 简述
-    posttime = scrapy.Field()  # 发布时间
-
-
 # acg
 class AcgItem(scrapy.Item):
     title = scrapy.Field()
